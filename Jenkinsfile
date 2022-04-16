@@ -1,6 +1,6 @@
 pipeline{
 
-agent any
+agent my_slave
 
 tools{
 maven 'Maven2'
