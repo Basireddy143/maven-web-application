@@ -3,7 +3,7 @@ pipeline{
 agent any
 
 tools{
-maven 'maven2'
+maven 'mvn'
 
 }
 
