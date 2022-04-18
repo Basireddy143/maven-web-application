@@ -38,7 +38,7 @@ label 'my_testing'
 
 stage('ExecuteSonarQubeReport'){
   steps{
-  sh  "sonar:sonar"
+  sh  "mvn clean install sonar:sonar"
   }
   }
   }
