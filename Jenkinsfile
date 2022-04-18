@@ -33,7 +33,7 @@ stages{
 /* 
 agent { 
 node { 
-label 'my_testing' 
+label'my_testing' 
 } 
 
 stage('ExecuteSonarQubeReport'){
