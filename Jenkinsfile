@@ -30,19 +30,19 @@ stages{
   sh  "mvn clean package"
   }
   }
-/* 
-agent { 
-node { 
-label'my_testing' 
-} 
+
+
+
+
+
 
 stage('ExecuteSonarQubeReport'){
   steps{
   sh  "mvn clean install sonar:sonar"
   }
   }
-  }
-  agent any
+
+
   stage('UploadArtifactsIntoNexus'){
   steps{
   sh  "mvn clean deploy"
@@ -56,7 +56,7 @@ stage('ExecuteSonarQubeReport'){
   }
   }
   }
-  */
+  
 }//Stages Closing
 
 post{
